@@ -25,7 +25,7 @@ class CalculatorGui:
 
         self.allcharacters = ["C", "CE", "√", "+", "π", "cos", "tan", 
                         "7", "8", "9", "-", "sin", "cosh", "tanh", 
-                        "4", "5", "6", "*", "sinh", "exp", "mod",
+                        "4", "5", "6", "x", "sinh", "exp", "mod",
                         "1", "2", "3", "/", "%", "deg", "log",
                         "0", ".", "±", "=", "log10", "x!", "e"]
 
