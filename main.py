@@ -10,3 +10,8 @@ class Main:
 if __name__ == "__main__":
     Main()
     
+# kalo mau buat aplikasinya, di terminal vscode input "pip install pyinstaller"
+# matiin dulu real-time protection di windows ya
+# di antivirus windowsnya pilih Add or remove exclusions, nanti pilih folder yang nyimpen 3 file ini
+# nah terus input lagi di terminal "pyinstaller --onefile --windowed main.py"
+# udah deh ya
