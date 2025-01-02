@@ -108,7 +108,7 @@ class Calculator: # buat class untuk diimport di gui.py
             self.answer = str(eval(''.join(self.operator)))
             self.operatorDisplay = [self.answer]
             self.operator, self.oldBtnValue = [], '='
-        except:
+        except: # nah ini kalo inputnya salah, nanti outputnya Error gini
             self.operatorDisplay, self.operator, self.oldBtnValue = ['Error'], [], '='
 
     # ini buat menghapus input yang terakhir
