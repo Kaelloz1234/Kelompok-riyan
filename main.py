@@ -14,4 +14,6 @@ if __name__ == "__main__":
 # matiin dulu real-time protection di windows ya
 # di antivirus windowsnya pilih Add or remove exclusions, nanti pilih folder yang nyimpen 3 file ini
 # nah terus input lagi di terminal "pyinstaller --onefile --windowed main.py"
-# udah deh ya
+# kalo mau buka aplikasinya, buka folde yg nyipen file ini terus buka folder "dist" 
+# pilih deh main.exe
+# gitu ya
